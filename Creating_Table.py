@@ -1,6 +1,10 @@
 # Databricks notebook source
-df= spark.range(0,100).toDF('Numbers')
+df= spark.range(0,99).toDF('Numbers')
 
 # COMMAND ----------
 
-display(df)
+df2= spark.range(0,200).toDF('Numbers')
+
+# COMMAND ----------
+
+display(df2)
