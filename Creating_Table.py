@@ -3,6 +3,10 @@ df= spark.range(0,99).toDF('Numbers')
 
 # COMMAND ----------
 
+df= spark.range(0,99).toDF('Numbers')
+
+# COMMAND ----------
+
 df2= spark.range(0,200).toDF('Numbers')
 
 # COMMAND ----------
